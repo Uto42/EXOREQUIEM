@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>63d9dee0-9266-4d91-80a7-bacb1fac8972</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b042ce67-7b46-4fb5-8149-d11822f398bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{930288eb-9ec5-48de-a22d-2a56c0ca5f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects">
+      <UniqueIdentifier>{0fff459e-ac8f-4889-b0f6-f168a0826055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Player">
+      <UniqueIdentifier>{868a908d-262b-4115-97bb-a433b10092cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Weapon">
+      <UniqueIdentifier>{9096648b-9a34-466e-896d-251f409eaf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{7fa8b663-05af-4fa9-b1ce-85b45d3688ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\GameplayScene">
+      <UniqueIdentifier>{6c36b548-d9d7-431b-88ee-e302d9240f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\LoadingScreen">
+      <UniqueIdentifier>{37346823-383a-4e54-97ad-4deb89516a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\ResultScene">
+      <UniqueIdentifier>{bcaa871e-9796-4c55-b6fc-94d402638f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\TitleScene">
+      <UniqueIdentifier>{669f78e7-56e9-44ec-884e-20deadcad33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\StandbyScene">
+      <UniqueIdentifier>{3d41a05f-08ae-48c8-ad7b-8598e4b8f5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems">
+      <UniqueIdentifier>{c6c0e8e5-d333-4119-9a9e-5a833dde4d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Effect">
+      <UniqueIdentifier>{228de2a0-1cbf-423a-8b8c-680bb0160f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Input">
+      <UniqueIdentifier>{3f0e4190-6578-4882-b4c1-eabf014be0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Pause">
+      <UniqueIdentifier>{b621f57b-5e57-48fb-8322-168cc4e5fcff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Sound">
+      <UniqueIdentifier>{d1adefd7-2141-4cbe-ae93-bef5d7f732bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Effect\Particle">
+      <UniqueIdentifier>{e43a1ed9-7d5b-4f1a-beaf-5369288d0e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Effect\Visuals">
+      <UniqueIdentifier>{d9ce864c-80af-4cc0-aeaa-50e2c53a4150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{5d3ba8c7-96d3-47ab-8c8c-d7c84bea94b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\HUD">
+      <UniqueIdentifier>{b1125289-2599-49fb-b7b6-1814e70a81e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\Status">
+      <UniqueIdentifier>{606c6af2-1719-4135-b669-b3d6f26511c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{25554716-bd3c-4c98-b0cb-22176be322a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Stage">
+      <UniqueIdentifier>{dd09729d-0600-4ad5-8b70-94bc92ba4935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\Collision">
+      <UniqueIdentifier>{c233e849-5ecd-4cd1-af68-2687b5ca30fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Systems\LockOn">
+      <UniqueIdentifier>{31c3a5ae-6afa-456c-bf6b-e4213d047649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot">
+      <UniqueIdentifier>{9706c80c-4b4e-441c-a770-b625a44ead25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State">
+      <UniqueIdentifier>{7cb964f2-3ff2-4efb-b9e3-4d014e8eb34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State\Rise">
+      <UniqueIdentifier>{7671ea71-ac9f-425a-b665-f807f283bdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State\Jump">
+      <UniqueIdentifier>{52e93cec-dc61-4d81-812d-f3c1a3963879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State\Death">
+      <UniqueIdentifier>{f9b8a5ad-6b4d-4ffb-ae31-df9866ffdb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State\Evade">
+      <UniqueIdentifier>{02cfb6b2-1d6b-4b4a-8dde-6449159f3a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State\Moving">
+      <UniqueIdentifier>{e3242bce-9901-4616-857a-34b1c970d953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\State\Idle">
+      <UniqueIdentifier>{a1bc1bde-b7db-4c17-ae60-91f8f13f9981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\Control">
+      <UniqueIdentifier>{39d9c4ae-abd4-43ea-8411-9b085f9132f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{8147c813-b9b1-42ba-9963-5778e161766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\Energy">
+      <UniqueIdentifier>{a916700d-a19a-4afd-b1fb-2d7e17bf882e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders">
+      <UniqueIdentifier>{78887c78-ce56-46e8-b03f-176953f7196a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\DamageIndicator">
+      <UniqueIdentifier>{b84e2cb5-56d1-4c4d-aed7-e1e2311a0d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\Particle">
+      <UniqueIdentifier>{7733016e-a1f5-4255-9fd3-8c3a3c14c0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\Thruster">
+      <UniqueIdentifier>{65ec78f1-fceb-440c-b060-e8893ff1520a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Enemy">
+      <UniqueIdentifier>{e8dc7dc1-a3d7-47d7-ba02-31f04d3f6093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shaders\EyeGlow">
+      <UniqueIdentifier>{7766d5fc-92ab-4d7e-9fb1-5c788deb8e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Projectile">
+      <UniqueIdentifier>{6bd4f231-6879-4eeb-8c98-bdb2cbdbbd58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Projectile\Missile">
+      <UniqueIdentifier>{fb735340-b22f-4f32-af27-e7b8f999c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Projectile\Bullet">
+      <UniqueIdentifier>{0f8cecb2-c5a0-4a23-9ea1-8715e5de7067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Enemy\Boss">
+      <UniqueIdentifier>{27a9ab58-b1af-42e7-b899-4a3f89443bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Robot\Boss">
+      <UniqueIdentifier>{f01c8ea1-1f99-49d1-85c1-43957aee555f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\Menu">
+      <UniqueIdentifier>{f5e40f57-2881-48af-a374-759fe7e7f6a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game\GameObjects\Enemy\Enemy.h">
+      <Filter>Game\GameObjects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\GameplayScene\GameplayScene.h">
+      <Filter>Game\Scene\GameplayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\LoadingScreen\GameLoadingScreen.h">
+      <Filter>Game\Scene\LoadingScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\StandbyScene\StandbyScene.h">
+      <Filter>Game\Scene\StandbyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\TitleScene\TitleScene.h">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Skydome.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\StageManager.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Effect\EffectSystem.h">
+      <Filter>Game\Systems\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Effect\Visuals\BlobShadow.h">
+      <Filter>Game\Systems\Effect\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Effect\Particle\Particle.h">
+      <Filter>Game\Systems\Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Effect\Particle\ParticleManager.h">
+      <Filter>Game\Systems\Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\IManipulator.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\KeyboardManipulator.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\RobotCommand.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Sound\SoundManager.h">
+      <Filter>Game\Systems\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Pause\PauseManager.h">
+      <Filter>Game\Systems\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\Status\EnemyStatusUI.h">
+      <Filter>Game\UI\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\Status\PlayerStatusUI.h">
+      <Filter>Game\UI\Status</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\HUD\InGameUI.h">
+      <Filter>Game\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\HUD\LockOnUI.h">
+      <Filter>Game\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\HUD\Radar.h">
+      <Filter>Game\UI\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\DebugFont.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Player\Player.h">
+      <Filter>Game\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\DeviceResources.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Collision\CollisionSystem.h">
+      <Filter>Game\Systems\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\AIManipulator.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\TurretAIManipulator.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\LockOn\LockOnSystem.h">
+      <Filter>Game\Systems\LockOn</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\StepTimer.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\UserResources.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\Robot.h">
+      <Filter>Game\GameObjects\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World\World.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\Control\WeaponController.h">
+      <Filter>Game\GameObjects\Robot\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\Energy\Energy.h">
+      <Filter>Game\GameObjects\Robot\Energy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\Death\RobotDeathState.h">
+      <Filter>Game\GameObjects\Robot\State\Death</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\Evade\RobotEvadeState.h">
+      <Filter>Game\GameObjects\Robot\State\Evade</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\Idle\RobotIdleState.h">
+      <Filter>Game\GameObjects\Robot\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\Jump\RobotJumpState.h">
+      <Filter>Game\GameObjects\Robot\State\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\RobotStateTypes.h">
+      <Filter>Game\GameObjects\Robot\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\RobotState.h">
+      <Filter>Game\GameObjects\Robot\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\Moving\RobotMovingState.h">
+      <Filter>Game\GameObjects\Robot\State\Moving</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\State\Rise\RobotRiseState.h">
+      <Filter>Game\GameObjects\Robot\State\Rise</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Enemy\EnemyManager.h">
+      <Filter>Game\GameObjects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\Thruster\Thruster.h">
+      <Filter>Game\GameObjects\Robot\Thruster</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\Camera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\FollowCamera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\ICameraComponent.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\LockOnCamera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Effect\Visuals\DamageIndicator.h">
+      <Filter>Game\Systems\Effect\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\ResultScene\ResultScene.h">
+      <Filter>Game\Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\BossAIManipulator.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Systems\Input\DummyAIManipulator.h">
+      <Filter>Game\Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Projectile\Missile\CruiseMissile.h">
+      <Filter>Game\GameObjects\Projectile\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Projectile\Missile\Missile.h">
+      <Filter>Game\GameObjects\Projectile\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Projectile\Missile\TopAttackMissile.h">
+      <Filter>Game\GameObjects\Projectile\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Projectile\Bullet\Bullet.h">
+      <Filter>Game\GameObjects\Projectile\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\CruiseMissileLauncher.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\MachineGun.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\Shotgun.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\TopAttackMissileLauncher.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Robot\Boss\BossRobot.h">
+      <Filter>Game\GameObjects\Robot\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Enemy\Boss\BossEnemy.h">
+      <Filter>Game\GameObjects\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI\Menu\MenuUIManager.h">
+      <Filter>Game\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\FreeCamera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Projectile\ProjectileManager.h">
+      <Filter>Game\GameObjects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\WeaponBase.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\WeaponRuntime.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Projectile\ProjectileBase.h">
+      <Filter>Game\GameObjects\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Weapon\IWeapon.h">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game\GameObjects\Enemy\Enemy.cpp">
+      <Filter>Game\GameObjects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Enemy\EnemyManager.cpp">
+      <Filter>Game\GameObjects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\GameplayScene\GameplayScene.cpp">
+      <Filter>Game\Scene\GameplayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\LoadingScreen\GameLoadingScreen.cpp">
+      <Filter>Game\Scene\LoadingScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\StandbyScene\StandbyScene.cpp">
+      <Filter>Game\Scene\StandbyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\TitleScene\TitleScene.cpp">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\ResultScene\ResultScene.cpp">
+      <Filter>Game\Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Skydome.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\StageManager.cpp">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Effect\EffectSystem.cpp">
+      <Filter>Game\Systems\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Effect\Visuals\BlobShadow.cpp">
+      <Filter>Game\Systems\Effect\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Effect\Visuals\DamageIndicator.cpp">
+      <Filter>Game\Systems\Effect\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Effect\Particle\Particle.cpp">
+      <Filter>Game\Systems\Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Effect\Particle\ParticleManager.cpp">
+      <Filter>Game\Systems\Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Input\KeyboardManipulator.cpp">
+      <Filter>Game\Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Sound\SoundManager.cpp">
+      <Filter>Game\Systems\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Pause\PauseManager.cpp">
+      <Filter>Game\Systems\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\Status\EnemyStatusUI.cpp">
+      <Filter>Game\UI\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\HUD\InGameUI.cpp">
+      <Filter>Game\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\HUD\LockOnUI.cpp">
+      <Filter>Game\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\HUD\Radar.cpp">
+      <Filter>Game\UI\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\DebugFont.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Player\Player.cpp">
+      <Filter>Game\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Common\DeviceResources.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Collision\CollisionSystem.cpp">
+      <Filter>Game\Systems\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Input\AIManipulator.cpp">
+      <Filter>Game\Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Input\TurretAIManipulator.cpp">
+      <Filter>Game\Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\LockOn\LockOnSystem.cpp">
+      <Filter>Game\Systems\LockOn</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\Robot.cpp">
+      <Filter>Game\GameObjects\Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World\World.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\Control\WeaponController.cpp">
+      <Filter>Game\GameObjects\Robot\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\Energy\Energy.cpp">
+      <Filter>Game\GameObjects\Robot\Energy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\State\Death\RobotDeathState.cpp">
+      <Filter>Game\GameObjects\Robot\State\Death</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\State\Evade\RobotEvadeState.cpp">
+      <Filter>Game\GameObjects\Robot\State\Evade</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\State\Idle\RobotIdleState.cpp">
+      <Filter>Game\GameObjects\Robot\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\State\Jump\RobotJumpState.cpp">
+      <Filter>Game\GameObjects\Robot\State\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\State\Moving\RobotMovingState.cpp">
+      <Filter>Game\GameObjects\Robot\State\Moving</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\State\Rise\RobotRiseState.cpp">
+      <Filter>Game\GameObjects\Robot\State\Rise</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\Thruster\Thruster.cpp">
+      <Filter>Game\GameObjects\Robot\Thruster</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera\Camera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera\FollowCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera\LockOnCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\Status\PlayerStatusUI.cpp">
+      <Filter>Game\UI\Status</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Input\BossAIManipulator.cpp">
+      <Filter>Game\Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Systems\Input\DummyAIManipulator.cpp">
+      <Filter>Game\Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Projectile\Missile\CruiseMissile.cpp">
+      <Filter>Game\GameObjects\Projectile\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Projectile\Missile\Missile.cpp">
+      <Filter>Game\GameObjects\Projectile\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Projectile\Missile\TopAttackMissile.cpp">
+      <Filter>Game\GameObjects\Projectile\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Projectile\Bullet\Bullet.cpp">
+      <Filter>Game\GameObjects\Projectile\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Weapon\CruiseMissileLauncher.cpp">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Weapon\MachineGun.cpp">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Weapon\Shotgun.cpp">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Weapon\TopAttackMissileLauncher.cpp">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Robot\Boss\BossRobot.cpp">
+      <Filter>Game\GameObjects\Robot\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Enemy\Boss\BossEnemy.cpp">
+      <Filter>Game\GameObjects\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI\Menu\MenuUIManager.cpp">
+      <Filter>Game\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera\FreeCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Projectile\ProjectileManager.cpp">
+      <Filter>Game\GameObjects\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Weapon\WeaponBase.cpp">
+      <Filter>Game\GameObjects\Weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Game\Shaders\Particle\Particle.hlsli">
+      <Filter>Game\Shaders\Particle</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Game\Shaders\DamageIndicator\DamageIndicatorPS.hlsl">
+      <Filter>Game\Shaders\DamageIndicator</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\DamageIndicator\DamageIndicatorVS.hlsl">
+      <Filter>Game\Shaders\DamageIndicator</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Particle\ParticleGS.hlsl">
+      <Filter>Game\Shaders\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Particle\ParticlePS.hlsl">
+      <Filter>Game\Shaders\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\Particle\ParticleVS.hlsl">
+      <Filter>Game\Shaders\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\EyeGlow\EyeGlowPS.hlsl">
+      <Filter>Game\Shaders\EyeGlow</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Shaders\EyeGlow\EyeGlowVS.hlsl">
+      <Filter>Game\Shaders\EyeGlow</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
